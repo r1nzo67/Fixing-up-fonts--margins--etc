@@ -90,7 +90,7 @@ body{
 
 .hero-image{
     /* Image style for hero image */
-    background-image: url("./Images/PlasticPollution1.jpg");
+    background-image: url("../Images/PlasticPollution1.jpg");
     height: 400px;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -128,18 +128,19 @@ body{
 
 /* Two column CSS End */
 
-h1 {
+ .infoHeader{
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     text-align: center;
     text-decoration: underline;
     margin-bottom: 30px;
 }
 
-p {
+.infoParagraph{
+    /* Paragraph style for the information section */
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
-    font-size: 0.80em;
+    font-size: 1.1em;
 }
 
 .image1 {
