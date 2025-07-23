@@ -122,17 +122,12 @@ body{
     margin-top: 40px;
 }
 
-.info1{
-    font-size: 1.25em;
-}
-
-/* Two column CSS End */
-
  .infoHeader{
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     text-align: center;
     text-decoration: underline;
     margin-bottom: 30px;
+    font-size: 2em;
 }
 
 .infoParagraph{
@@ -143,8 +138,10 @@ body{
     font-size: 1.1em;
 }
 
-.image1 {
+.image-section {
     width: 100%;
     height: auto;
     margin-top: 67px;
 }
+
+/* Two column CSS End */

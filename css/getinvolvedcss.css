@@ -10,6 +10,15 @@ img{
     width: 100%;
 }
 
+body{
+    /* Body style */
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 100px;
+    padding: 0;
+}
 
 /* Navbar CSS Start */
 .header{
@@ -73,3 +82,53 @@ img{
 }
 
 /* Navbar CSS End */
+
+
+/* Two column CSS Start */
+
+.two-column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+ .infoHeader{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.infoParagraph{
+    font-size: 1.25em;
+}
+
+.InfoImg{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.QuoteImg{
+    width: 100%;
+    height: auto;
+}
+
+.QuoteHeader{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 140px;
+    margin-bottom: 130px;
+    font-size: 47px;
+    border: 15px solid rgb(57, 161, 61);
+    border-radius: 67px;
+
+}
+
+
+/* Two column CSS End */
