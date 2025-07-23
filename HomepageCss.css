@@ -1,6 +1,6 @@
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -10,7 +10,15 @@ img{
     width: 100%;
 }
 
-
+body{
+    /* Body style */
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 100px;
+    padding: 0;
+}
 /* Navbar CSS Start */
 
 
@@ -124,4 +132,18 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     text-align: center;
     text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 0.80em;
+}
+
+.image1 {
+    width: 100%;
+    height: auto;
+    margin-top: 67px;
 }
