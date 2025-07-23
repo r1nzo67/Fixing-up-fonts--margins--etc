@@ -1,0 +1,112 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+/* Navbar CSS Start */
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(57, 161, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logohead{ 
+    /* The style for 'Kaitiakitanga' on the Navbar */
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-weight: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.logopgrph{
+    /* The style for the words underneath 'Kaitiakitanga' on the Navbar  */
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-weight: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar a{
+    /* The style for the links on the Navbar */
+    font-size: 25px;
+    color: rgb(254, 251, 251);
+    font-weight: 500px;
+    margin-left: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.logo{
+    /* Positioning of the Logo image */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 15px;
+}
+
+
+.LogoImg{
+    /* The style for the logo image (Height and Width) */
+    height: 76px;
+    width: 76px;
+}
+
+
+.logoText{
+    /* Positioning of the 'logopgrh' & 'logohead'  */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar CSS End */
+
+/* Heading CSS Start */
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.two-column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.Paragraphs{
+    font-size: 1.25em;
+}
+
+.images{
+    border: 2px solid black;
+}
+
+.p2{
+    margin-top: 25px;
+}
+/* Two column CSS End */
