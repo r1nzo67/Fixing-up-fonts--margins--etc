@@ -1,4 +1,5 @@
 *{
+    /* Universal selector to reset box model and font */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
 
 
 img{
+    /* Ensures that images remain at 100% width */
     width: 100%;
 }
 
@@ -15,13 +17,13 @@ body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size: 16px;
-    line-height: 1.5;
     margin-bottom: 100px;
     padding: 0;
 }
 
 /* Navbar CSS Start */
 .header{
+    /* The style for the Navbar */
     position: relative;
     top: 0;
     left: 0;
@@ -38,7 +40,7 @@ body{
     /* The style for 'Kaitiakitanga' on the Navbar */
     font-size: 28px;
     color: rgb(255, 255, 255);
-    font-weight: 50px;
+    font-weight: 50;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -46,7 +48,7 @@ body{
     /* The style for the words underneath 'Kaitiakitanga' on the Navbar  */
     font-size: 28px;
     color: rgb(255, 255, 255);
-    font-weight: 50px;
+    font-weight: 50;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -54,7 +56,7 @@ body{
     /* The style for the links on the Navbar */
     font-size: 25px;
     color: rgb(254, 251, 251);
-    font-weight: 500px;
+    font-weight: 500;
     margin-left: 40px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -72,6 +74,7 @@ body{
     /* The style for the logo image (Height and Width) */
     height: 76px;
     width: 76px;
+    border-radius: 20px;
 }
 
 
@@ -87,6 +90,7 @@ body{
 /* Two column CSS Start */
 
 .two-column{
+    /* The style for the two column layout */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
@@ -97,6 +101,7 @@ body{
 
 
  .infoHeader{
+    /* The style for the heading in the two column layout */
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     text-align: center;
     text-decoration: underline;
@@ -105,30 +110,51 @@ body{
 }
 
 .infoParagraph{
-    font-size: 1.25em;
+    /* The style for the paragraph in the two column layout */
+    font-size: 1.75em;
+    text-align: center;
+    border: 5px solid rgb(57, 161, 61);
+    border-radius: 20px;
+    font-weight: bold;
 }
 
-.InfoImg{
-    width: 100%;
-    height: 100%;
-    margin-bottom: 20px;
+.list{
+    /* The style for the list in the first column of two column layout */
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 1.5;
+    text-align: left;
+    font-style: italic;
+
 }
-.QuoteImg{
+.InfoImg{
+    /* The style for the image in the first column of two column layout */
     width: 100%;
     height: auto;
+    margin-bottom: 20px;
+    border: 5px solid rgb(57, 161, 61);
+    border-radius: 20px;
+}
+.QuoteImg{
+    /* The style for the image in the second column of the two column layout */
+    width: 100%;
+    height: auto;
+    border: 5px solid rgb(57, 161, 61);
+    border-radius: 20px;
+
 }
 
 .QuoteHeader{
+    /* The style for the heading in the second column of the two column layout */
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     text-align: center;
     text-decoration: underline;
-    margin-top: 140px;
-    margin-bottom: 130px;
+    margin-top: 80px;
+    margin-bottom: 50px;
     font-size: 47px;
-    border: 15px solid rgb(57, 161, 61);
+    border: 10px solid rgb(57, 161, 61);
     border-radius: 67px;
-
 }
-
 
 /* Two column CSS End */

@@ -1,11 +1,12 @@
 *{
+    /* Universal selector to reset margin and padding */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/* Ensure that img's width remain set 100%*/
 img{
     width: 100%;
 }
@@ -15,7 +16,6 @@ body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size: 16px;
-    line-height: 1.5;
     margin-bottom: 100px;
     padding: 0;
 }
@@ -40,7 +40,7 @@ body{
     /* The style for 'Kaitiakitanga' on the Navbar */
     font-size: 28px;
     color: rgb(255, 255, 255);
-    font-weight: 50px;
+    font-weight: 500;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -48,7 +48,7 @@ body{
     /* The style for the words underneath 'Kaitiakitanga' on the Navbar  */
     font-size: 28px;
     color: rgb(255, 255, 255);
-    font-weight: 50px;
+    font-weight: 50;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -56,7 +56,7 @@ body{
     /* The style for the links on the Navbar */
     font-size: 25px;
     color: rgb(254, 251, 251);
-    font-weight: 500px;
+    font-weight: 500;
     margin-left: 40px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -74,6 +74,7 @@ body{
     /* The style for the logo image (Height and Width) */
     height: 76px;
     width: 76px;
+    border-radius: 20px;
 }
 
 
@@ -114,6 +115,7 @@ body{
 /* Two column CSS Start */
 
 .two-column{
+    /* Two column layout for the information section */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
@@ -123,6 +125,7 @@ body{
 }
 
  .infoHeader{
+    /* Header style for the information section */
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     text-align: center;
     text-decoration: underline;
@@ -135,10 +138,11 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 .image-section {
+    /* Image section style for the two column layout */
     width: 100%;
     height: auto;
     margin-top: 67px;

@@ -1,4 +1,5 @@
 *{
+    /* Universal selector to apply styles to all elements */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -6,13 +7,22 @@
 }
 
 
+body{
+    /* The style for the body */
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-bottom: 67px;
+}
+
 img{
+    /* Style for all images, maintaining img width to 100% */
     width: 100%;
 }
 
 
 /* Navbar CSS Start */
 .header{
+    /* The style for the Navbar */
     position: relative;
     top: 0;
     left: 0;
@@ -29,7 +39,7 @@ img{
     /* The style for 'Kaitiakitanga' on the Navbar */
     font-size: 28px;
     color: rgb(255, 255, 255);
-    font-weight: 50px;
+    font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -37,7 +47,7 @@ img{
     /* The style for the words underneath 'Kaitiakitanga' on the Navbar  */
     font-size: 28px;
     color: rgb(255, 255, 255);
-    font-weight: 50px;
+    font-weight: 50;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -45,7 +55,7 @@ img{
     /* The style for the links on the Navbar */
     font-size: 25px;
     color: rgb(254, 251, 251);
-    font-weight: 500px;
+    font-weight: 500;
     margin-left: 40px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -63,6 +73,7 @@ img{
     /* The style for the logo image (Height and Width) */
     height: 76px;
     width: 76px;
+    border-radius: 20px
 }
 
 
@@ -76,6 +87,7 @@ img{
 
 /* Heading CSS Start */
 h2{
+    /* The style for the main heading */
     font-size: 50px;
     text-align: center;
     margin-top: 50px;
@@ -83,6 +95,7 @@ h2{
 }
 
 h3{
+    /* The style for the subheading */
     font-size: 30px;
     text-align: center;
     margin-top: 10px;
@@ -90,6 +103,7 @@ h3{
 }
 
 .two-column{
+    /* The style for the two columns */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
@@ -99,14 +113,18 @@ h3{
 }
 
 .Paragraphs{
-    font-size: 1.25em;
+    /* The style for the paragraphs */
+    font-size: 1.67em;
+    line-height: 1.5;
 }
 
 .images{
-    border: 2px solid black;
+    /* The style for the images */
+    text-align: center;
 }
 
 .p2{
+    /* The style for the second paragraph */
     margin-top: 25px;
 }
 /* Two column CSS End */
