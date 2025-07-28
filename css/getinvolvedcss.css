@@ -6,8 +6,7 @@
     box-sizing: border-box;
 }
 
-
-img{
+img {
     /* Ensures that images remain at 100% width */
     width: 100%;
 }
@@ -40,7 +39,7 @@ body{
     /* The style for 'Kaitiakitanga' on the Navbar */
     font-size: 28px;
     color: rgb(255, 255, 255);
-    font-weight: 50;
+    font-weight: 500;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
